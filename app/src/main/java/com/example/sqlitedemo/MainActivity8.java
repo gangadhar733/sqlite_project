@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity8 extends AppCompatActivity {
 
     EditText userName,passWord;
     DBHelper dbHelper;
+    TextView upd;
 
     public static final String DBNAME = "userdb";
     public static final String TBNAME = "users";
@@ -24,6 +26,7 @@ public class MainActivity8 extends AppCompatActivity {
 
         userName = (EditText) findViewById(R.id.username);
         passWord = (EditText) findViewById(R.id.psw);
+        upd=findViewById(R.id.upd);
 
     }
 

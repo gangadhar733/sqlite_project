@@ -6,14 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity5"
     android:orientation="vertical"
-    android:background="@drawable/warmbg">
+    android:background="@drawable/img16">
+
+
+    <TextView
+        android:id="@+id/adm"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="ADMIN PRIVILEGES"
+        android:textColor="#108998"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="30sp"
+        android:textSize="40dp"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="320dp">
+        >
 
         <Button
             android:layout_width="350dp"
@@ -21,29 +34,41 @@
             android:id="@+id/add"
             android:text="ADD USER"
             android:layout_weight="0.25"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#3994BD"
+            android:textColor="#ffff"
             android:onClick="userAdd"/>
 
         <Button
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:id="@+id/delete"
+            android:textColor="#ffff"
             android:text="DELETE USER"
+            android:layout_marginBottom="20dp"
             android:layout_weight="0.25"
+            android:backgroundTint="#3994BD"
             android:onClick="userDelete"/>
 
         <Button
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:id="@+id/update"
+            android:textColor="#ffff"
+            android:layout_marginBottom="20dp"
             android:text="UPDATE USER"
             android:layout_weight="0.25"
+            android:backgroundTint="#3994BD"
             android:onClick="userUpdate"/>
 
         <Button
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:id="@+id/display"
+            android:textColor="#ffff"
             android:text="DISPLAY"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#3994BD"
             android:layout_weight="0.25"
             android:onClick="userDisplay"/>
 

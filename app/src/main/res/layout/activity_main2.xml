@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/warmbg"
+    android:background="@drawable/img6"
     android:orientation="vertical"
     tools:context=".MainActivity2">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="387dp"
         android:layout_height="wrap_content"
-        android:text="Welcome!"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="50dp"
+        android:padding="20sp"
         android:paddingStart="40dp"
-        android:layout_marginTop="150dp"/>
+        android:text="Welcome!"
+        android:textColor="#D7131212"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -26,17 +29,22 @@
         <Button
             android:id="@+id/login"
             android:layout_width="324dp"
-            android:layout_height="44dp"
+            android:layout_height="60dp"
             android:layout_weight="0.5"
             android:onClick="goToLogin"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#3994BD"
+            android:textColor="#ffff"
             android:text="Login" />
 
         <Button
             android:id="@+id/register"
             android:layout_width="324dp"
-            android:layout_height="44dp"
+            android:layout_height="60dp"
             android:layout_weight="0.5"
             android:onClick="goToRegister"
+            android:backgroundTint="#3994BD"
+            android:textColor="#ffff"
             android:text="Register" />
 
     </LinearLayout>

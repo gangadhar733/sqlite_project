@@ -7,12 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity4 extends AppCompatActivity {
 
     EditText userName,passWord;
     DBHelper dbHelper;
+    TextView reg;
 
     public static final String DBNAME = "userdb";
     public static final String TBNAME = "users";
@@ -25,6 +27,7 @@ public class MainActivity4 extends AppCompatActivity {
 
         userName = (EditText) findViewById(R.id.username);
         passWord = (EditText) findViewById(R.id.psw);
+        reg=findViewById(R.id.reg);
 
     }
 

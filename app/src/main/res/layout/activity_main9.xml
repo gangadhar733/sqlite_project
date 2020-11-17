@@ -6,13 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity9"
     android:orientation="vertical"
-    android:background="@drawable/warmbg">
+    android:background="@drawable/img16">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/content"
         android:text="Users:"
+        android:padding="25sp"
+        android:textColor="#75B2BA"
         android:textSize="35sp"
         android:layout_margin="30dp"/>
 

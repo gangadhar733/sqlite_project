@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity7 extends AppCompatActivity {
 
     EditText userName;
     DBHelper dbHelper;
+    TextView del;
 
     public static final String DBNAME = "userdb";
     public static final String TBNAME = "users";
@@ -24,6 +26,7 @@ public class MainActivity7 extends AppCompatActivity {
         setContentView(R.layout.activity_main7);
 
         userName = (EditText) findViewById(R.id.username);
+        del=findViewById(R.id.del);
 
     }
 
